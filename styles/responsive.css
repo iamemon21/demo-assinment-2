@@ -1,0 +1,22 @@
+/* responsive for medium devices */
+
+
+
+
+/* Responsive for small devices */
+
+@media screen and (max-width:576px) {
+    .nav-content {
+        width: 100%;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+
+    }
+
+}
