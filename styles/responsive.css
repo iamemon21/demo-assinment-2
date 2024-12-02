@@ -1,6 +1,30 @@
 /* responsive for medium devices */
 
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-content {
+        width: 100%;
+    }
 
+    .banner-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-texts {
+        width: 80%;
+
+    }
+
+    .banner-btns {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .banner-image {
+        width: 50%;
+        align-items: center;
+    }
+}
 
 
 /* Responsive for small devices */
@@ -19,4 +43,80 @@
 
     }
 
+    .banner-main {
+        margin: 20px;
+    }
+
+    .banner-content {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .banner-texts {
+        width: auto;
+    }
+
+    .banner-title {
+        font-size: 2.25rem;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .banner-btns {
+        width: calc(100% - 20px);
+        display: flex;
+        gap: 20px;
+    }
+
+    .banner-btn-1 {
+        width: 170px;
+        height: 54px;
+        border-radius: 42px;
+        padding: 10px;
+    }
+
+    .banner-btn-2 {
+        width: 170px;
+        max-height: 54px;
+        padding: 10px;
+    }
+
+    .floating-icon-1 {
+        width: 150px;
+        height: 70px;
+        left: 200px;
+        top: 60px;
+    }
+
+    .floating-icon-2 {
+        width: 150px;
+        height: 70px;
+        gap: 20px;
+        bottom: 250px;
+        left: 20px;
+    }
+
+    .play-1 {
+        display: none;
+    }
+
+    .play-2 {
+        display: block;
+    }
+
+    .fi-1-title {
+        font-size: 1.8rem;
+    }
+
+    .fi-1-sub-title {
+        font-size: 0.6rem;
+    }
+
+    .fi-2-title {
+        font-size: 1.1rem;
+    }
+
+    .fi-2-sub-title {
+        font-size: 0.75rem;
+    }
 }
