@@ -21,7 +21,7 @@ main {
     max-width: 1440px;
     /* border: 2px solid red; */
     margin: 0 auto;
-    background: black linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: black linear-gradient(0.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
 }
 
@@ -182,7 +182,8 @@ main {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
 }
-.play-2{
+
+.play-2 {
     display: none;
 }
 

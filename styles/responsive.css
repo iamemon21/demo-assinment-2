@@ -42,18 +42,15 @@
         display: block;
 
     }
-
-    .banner-main {
-        margin: 20px;
-    }
-
     .banner-content {
         flex-direction: column;
-        width: auto;
+        width: calc(100% - 20px);
+        padding: 20px;
     }
 
     .banner-texts {
-        width: auto;
+        width: 100%;
+        /* margin: 0 20px; */
     }
 
     .banner-title {
